@@ -99,6 +99,7 @@ function setColoredFont(color, font, italic=false) {
 ```
 
 Click the **Save Project** icon to save your functions before running and testing them.
+
 ![save icon](./images/08-save-icon.png)
 
 
