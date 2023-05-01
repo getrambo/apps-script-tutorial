@@ -98,12 +98,13 @@ function setColoredFont(color, font, italic=false) {
 }
 ```
 
-Click the **Save Project** icon to save your functions before running and testing.
+Click the **Save Project** icon to save your functions before running and testing them.
 ![save icon](./images/08-save-icon.png)
 
-## Test and authorize functions
 
-Test and authorize functions to act on data.
+## Test functions
+
+This step requires you to run and authorize functions to act on data.
 
 Return to slides and select some text to highlight.
 
@@ -147,7 +148,7 @@ Select some other text and test **setGreenConsolasItalic**.
 Congratulations! Your functions are working.
 
 
-## Add functionality to the main menu
+## Expose functions
 
 Now it's time to expose these functions to end users.
 
