@@ -30,7 +30,7 @@ You also add two wrapper functions that call this function with predetermined st
 
 To complete this lesson, you need a temporary Gmail account. 
 
-Google Slides comes with Gmail.  However, running scripts requires two-factor authentication disabled and access to personal data, so it is safer and faster to practice these steps in a temporary account.
+> Google Slides comes with Gmail.  However, running scripts requires two-factor authentication disabled and access to personal data, so it is safer and faster to practice these steps in a temporary account.
 
 Open a web browser.
 
