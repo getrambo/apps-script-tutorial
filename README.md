@@ -185,7 +185,7 @@ After the presentation opens, note the added menu item at the end of the main me
 
 Select some text in the slide editor window as you did before, and select one of the drop-down menu items.
 
-Congratulations! You are now using custom functions to save time and promote consistency in your content.
+> **Congratulations!** You are now using custom functions to save time and promote consistency in your content.
 
 
 ## Doing more with Google Docs
