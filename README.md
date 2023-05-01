@@ -17,9 +17,9 @@ This guide assumes only basic familiarity with Google Slides and an object-orien
 
 In this tutorial, you will add the following function that applies multiple style changes to selected text in a presentation.
 
-![sample code](./images/01-sample-code.png)
+> Lines 5 and 6 get the selected text; lines 10 to 13 apply style changes. 
 
-Lines 5 and 6 get the selected text; lines 10 to 13 apply style changes. 
+![sample code](./images/01-sample-code.png)
 
 Then you will add two wrapper functions that call this function with predetermined style changes, and add two menu items that users can select to run these functions as shown below.
 
@@ -30,7 +30,7 @@ Then you will add two wrapper functions that call this function with predetermin
 
 To complete this lesson, you need a temporary Gmail account. 
 
-Google Slides comes with Gmail.  However, running scripts requires two-factor authentication disabled and access to personal data, so it is safer and faster to run these steps from a temporary account.
+Google Slides comes with Gmail.  However, running scripts requires two-factor authentication disabled and access to personal data, so it is safer and faster to practice these steps in a temporary account.
 
 Open a web browser.
 
@@ -38,37 +38,39 @@ Go to [gmail.com](https://gmail.google.com/) and create a Gmail account; it only
 
 When you finish creating the account, Gmail opens.
 
-## Create a new presentation in Google Slides
+## Open a new presentation
 
-In the main Gmail page, click the **Google apps** icon (top-right.)
+In the main Gmail page, click the **Google apps** icon (top-right) to select Google Drive.
+
+> Google Drive is where you create Google Slides.
 
 ![Google apps](./images/02-gapps-selector.png)
 
 In the popup dialog, select **Drive**.  
 
-> Google Drive is where you can create Google Slides.
+Click the **+ New** button (top-left.)
 
-Click the **+ New** button (top-left) and select **Google Slides** to create a new presentation.
+Select **Google Slides** to open a new presentation.
 
-## Add some text to format
+## Add some text
 
 You need some text in slides to select, so you might as well add that now.
 
-In the slide editor (center of page), click the title and subtitle text boxes and enter some text that you can format later.
+In the slide editor (center of page,) click the title and subtitle boxes and enter some text that you can format later.
 
-![enter text](./images/04-enter-text2.png)
+![enter text](./images/04-enter-text.png)
 
-## Add functions that format text
+## Add functions
 
-Next, you define functions that will apply style changes when users select text to change.
+Next, you define functions that users run to apply style changes to selected text.
 
 Click **Extensions** in the main menu and select **Apps Script** to open the script editor. 
 
-> **NOTE:** If Extensions is not listed, widen the browser window until it shows.
+> If **Extensions** is not listed, widen the browser window until it displays.
 
-![Open Apps Script](./images/05-open-apps-script.png)
+Copy the code below and paste it in the main editor window so it replaces the default function.
 
-Copy the code below and paste it in the main editor window so it replaces the default, empty function.
+> There are three functions. **setRedConsolas** and **setGreenConsolasItalic** define style changes and call **setColoredFont** that applies changes.
 
 ```
 function setRedConsolas() {
@@ -96,65 +98,49 @@ function setColoredFont(color, font, italic=false) {
 }
 ```
 
-Here is what a successful replacement looks like.
-
-![succesful paste](./images/06a-successful-paste.png)
-
-There are three functions: two functions (**setRedConsolas** and **setGreenConsolasItalic**) specify different style changes and call the third function (**setColoredFont**) to apply changes.
-
 Click the **Save Project** icon to save your functions before running and testing.
+![save icon](./images/08-save-icon.png)
 
-![save icon](./images/07-save-icon.png)
+## Test and authorize functions
 
-## Test and authorize your functions
+Test and authorize functions to act on data.
 
-In the next section, you add custom menu items that expose these functions to end users. But first you want to test and authorize them to act on data.
+Return to slides and select some text to highlight.
 
-Return to slides and select some text to highlight (a word or two is all you need).
+> A word or two is all you need.
 
-![select text](./images/06b-select-text.png)
+![select text](./images/09-select-text.png)
 
-Leave the text selected and return to script editor.
+Leave text selected and return to script editor.
 
-Select **setRedConsolas** from the function drop-down selector (if not selected).
+Select **setRedConsolas** from the function drop-down selector (if not selected.)
 
-![select red](./images/08-select-red.png)
+![select red](./images/10-select-red.png)
 
-Click **Run** to call **setRedConsolas**. This tests the function and requests the necessary privileges to access and modify text in presentations.
+Click **Run** to call **setRedConsolas**. 
 
-![click run](./images/09a-click-red.png)
+> This tests the function and requests privileges to modify text.
 
-Click **Review permissions**.
+![click run](./images/11-click-run.png)
 
-![review perms](./images/20-review-perms.png)
+Navigate through the dialog:
+- Click **Review permissions**
+- Select your temporary account
+- Click **Advanced**
+- Click **Go to untitled project (unsafe)**
+- Click **Allow**.
 
-Select your temporary account.
+You should see two messages without errors in the **Execution log**.
 
-![click account](./images/21-choose-account.png)
-
-Click **Advanced**.
-
-![click advanced](./images/22-click-advanced.png)
-
-Click **Go to untitled project (unsafe)**. This is just a warning.
-
-![click proj](./images/23-click-go-proj.png)
-
-Click **Allow**.
-
-![click allow](./images/24-click-allow.png)
-
-You should see the following messages in the Execution log appear as shown below.
-
-> **NOTE:** You may need to run the script a second time after authorizing it.
-
-![no errors](./images/25-no-errors.png)
+> You may need to run the script a second time after authorizing it.
 
 If you get an error like the one below, no text was selected. Reselect some text in slides and rerun the function.
 
-![script error](./images/26-script-error-len0.png)
+```
+Error len(0)
+```
 
-Return to slides and notice the styles applied.
+Return to slides and observe the new style.
 
 Select some other text and test **setGreenConsolasItalic**.
 
