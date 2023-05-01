@@ -27,7 +27,9 @@ In this exercise, you add this function to a presentation. Then you will add two
 
 ## Create a Gmail account
 
-Google Slides comes with Gmail.  However, running scripts requires two-factor authentication disabled and access to personal data, so it is safer and faster to run these exercises from a temporary Gmail account.
+Google Slides comes with Gmail.  
+
+However, running scripts requires two-factor authentication disabled and access to personal data, so it is safer and faster to run these exercises from a temporary Gmail account.
 
 Open a web browser.
 
