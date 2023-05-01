@@ -40,13 +40,13 @@ Go to [gmail.com](https://gmail.google.com/) and create a Gmail account; it only
 
 ## Open a new presentation
 
-In the main Gmail page, click the **Google apps** icon (top-right) to select Google Drive.
-
-> Google Drive is where you create Google Slides.
+In the main Gmail page, click the **Google apps** icon (top-right) to view other applications.
 
 ![Google apps](./images/02-gapps-selector.png)
 
-In the popup dialog, select **Drive**.  
+In the popup dialog, select **Drive**.
+
+> Google Drive is where you create Google Slides.
 
 Click the **+ New** button (top-left.)
 
