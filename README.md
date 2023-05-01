@@ -13,7 +13,7 @@ This guide assumes only basic familiarity with Google Slides and an object-orien
 
 
 
-## Get Started
+## What you will build
 
 In this tutorial, you add the following function that applies multiple style changes to selected text in a presentation.
 
