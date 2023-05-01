@@ -179,11 +179,11 @@ Close and reopen the presentation.
 
 After the presentation opens, note the added menu item at the end of the main menu. 
 
+> If you do not see the added menu item, widen the browser window.
+
 ![menu item](./images/28-slides-menu.png)
 
-> **NOTE:** If you do not see the added menu item, widen the browser window.
-
-Select some text in the slide edit window and select one of the drop-down menu items.
+Select some text in the slide editor window as you did before, and select one of the drop-down menu items.
 
 Congratulations! You are now using custom functions to save time and promote consistency in your content.
 
