@@ -22,11 +22,11 @@ In Apps Script, you write scripts with access to built-in libraries and data obj
  
 Below is an Apps Script function. Apps Scripts can be bound to a specific application. This function applies mutliple style changes to selected text in its bound presentation. Lines 5 and 6 get selected text. Lines 10 to 13 apply predetermined style changes. 
 
-![sample apps script](./images/01-sample-code.png)
+![sample code](./images/01-sample-code.png)
 
 In this exercise, you will add functions bound to a Google Slides presentation and add custom menu items that trigger two predetermined style changes as[ shown below.
 
-![menu items](./images/34-slides-menu.png)
+![slides menu](./images/02-slides-menu-small.png)
 
 For more details, refer to Google Apps Script [documentation](https://developers.google.com/apps-script/overview).
 
@@ -39,21 +39,15 @@ Open a web browser and go to [gmail.com](https://gmail.google.com/) and create a
 
 When you finish creating the account, Gmail opens and gives you access to other Google Workspace applications.
 
-## Open a Google Slides presentation
+## Create a new presentation in Google Slides
 
-In the main Gmail page, click the **Google apps** icon in the top-right. This allows you switch to Google Workspace applications.
+In the main Gmail page, click the **Google apps** icon (top-right) where you can . This opens Google Workspace where you can create a new presentation.
 
 ![Google apps](./images/02-gapps-selector.png)
 
 In the dialog popup, select **Drive**.  Google Drive is where you can create Google Slides and Docs.
 
-![Google Drive](./images/03-drive-icon2.png)
-
-Once Google Drive opens, click the **+ New** button (top-left).
-
-![drive new](./images/0-drive-new.png)
-
-Select **Google Slides** to create a new presentation to use.
+Click the **+ New** button (top-left) and select **Google Slides** to create a new presentation in Google Slides.
 
 ## Add some text to format
 
