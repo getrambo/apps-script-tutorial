@@ -22,7 +22,7 @@ Below is an Apps Script function that applies mutliple style changes to selected
 
 In this exercise, you add this function to a presentation. Then you will add two wrapper functions that call this function with pretedetermined style changes, and add two menu items that users can select to run these functions (as shown below.)
 
-![slides menu](./images/02-slides-menu-small.png)
+![slides menu](./images/28-slides-menu.png)
 
 
 ## Create a Gmail account
