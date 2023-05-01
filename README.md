@@ -121,11 +121,11 @@ Select **setRedConsolas** from the function drop-down selector (if not selected.
 
 Click **Run** to call **setRedConsolas**. 
 
+> This requests permissions to modify text.
+
 ![click run](./images/11-click-run.png)
 
-> This requests privileges to modify text.
-
-Navigate through the dialog:
+Navigate through the dialog to grant the permissions:
 - Click **Review permissions**
 - Select your temporary account
 - Click **Advanced**
@@ -155,6 +155,8 @@ Now it's time to expose these functions to end users.
 
 Copy and paste the following **onOpen** function into the top of the script editor.
 
+> This function runs when a presentation containing it is opened for editing. It adds a menu item with two drop-down items. Each drop-down item calls one of the wrapper functions that applies style changes.
+
 ```
 function onOpen() {
   var ui = SlidesApp.getUi();
@@ -166,17 +168,15 @@ function onOpen() {
 }
 ```
 
-> **NOTE:** This function runs when a presentation containing it is opened for editing. It adds a menu item with two drop-down items. Each drop-down calls a function and applies style changes.
-
 Save the changes to the script. 
 
 Close and reopen the presentation.
 
-> **NOTE:** You will be required to reauthorize the script so it can modify the main menu.
+> You will be required to reauthorize the script so it can modify the main menu.
 
 After the presentation opens, note the added menu item at the end of the main menu. 
 
-![menu item](./images/34-slides-menu.png)
+![menu item](./images/28-slides-menu.png)
 
 > **NOTE:** If you do not see the added menu item, widen the browser window.
 
@@ -186,10 +186,10 @@ Congratulations! You are now using custom functions to save time and promote con
 
 ## Doing more with Google Docs
 
-If there was more time, you could learn how to customize Google Docs to insert custom quoted text boxes and code blocks like those found in Markdown.
+If there was more time, you could learn how to customize Google Docs with Google Apps Script. Google Docs is an application similar to Microsoft Word.
 
-Here is what a custom menu looks like in Google Docs with two functions that insert the preformatted text boxes shown (text is added by users after boxes are added).
+Below is an example of two functions added to the main menu that enable users to insert quoted text boxes (green) and code blocks (gray) similar to those found in Markdown.
 
-![text boxes](./images/35-docs-menu.png)
+![text boxes](./images/30-docs-menu.png)
 
 
