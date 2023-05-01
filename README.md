@@ -36,7 +36,7 @@ Open a web browser.
 
 Go to [gmail.com](https://gmail.google.com/) and create a Gmail account; it only takes about 60 seconds.
 
-When you finish creating the account, Gmail opens.
+> When you finish creating the account, Gmail opens.
 
 ## Open a new presentation
 
