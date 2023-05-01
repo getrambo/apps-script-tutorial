@@ -54,9 +54,9 @@ Select **Google Slides** to open a new presentation.
 
 ## Add some text
 
-You need some text in slides to select, so you might as well add that now.
+You need some text in slides to select.
 
-In the slide editor (center of page,) click the title and subtitle boxes and enter some text that you can format later.
+In the slide editor (center of page,) click the title and subtitle boxes and enter some text that you can format.
 
 ![enter text](./images/04-enter-text.png)
 
