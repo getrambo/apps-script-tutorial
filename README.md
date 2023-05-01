@@ -5,9 +5,9 @@
 
 Content developers use applications such as Google Slides and Microsoft Powerpoint to create presentations. 
 
-Within Google Slides, there is a powerful feature called Google Apps Script which allows you to write custom functions that perform manual editing tasks in code. Almost any manual action that you can perform in Google Slides can be automated. For example, you can reformat selected text, insert preformatted code blocks or quoted text boxes, or export slides to PDF. You can also add custom menu items that allow users to run these functions from the main menu. 
+Within Google Slides, there is a powerful feature called Google Apps Script which allows you to write custom functions that perform manual editing tasks in code. Almost any manual action that you can perform in Google Slides can be automated. You can also add custom menu items that allow users to run these functions from the main menu. 
 
-In this tutorial, you will add functions and menu items to Google Slides that enable content developers to apply multiple, predetermined style changes to selected text in one step. Bundling and repeating frequently used editing tasks such as these saves time and promotes content consistency.
+In this tutorial, you will add functions and menu items that enable developers to apply multiple style changes to selected text in one step. Bundling and repeating frequently used editing tasks such as this saves time and promotes consistency.
 
 This guide assumes only basic familiarity with Google Slides (similar to Microsoft PowerPoint) and an object-oriented programming language such as Javascript. 
 
