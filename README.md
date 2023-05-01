@@ -5,43 +5,39 @@
 
 Content developers use applications such as Google Slides and Microsoft Powerpoint to create presentations. 
 
-Within Google Slides, there is a powerful feature called Google Apps Script which allows you to write custom functions that perform manual editing tasks in code. Almost any manual action that you can perform in Google Slides can be automated. You can also add custom menu items that allow users to run these functions from the main menu. 
+In Google Slides, there is a powerful feature called Google Apps Script which allows you to write custom functions that perform manual editing tasks in code. Almost any manual action that you can perform in Google Slides can be automated. You can also add custom menu items that allow users to run these functions from the main menu. 
 
-In this tutorial, you will add functions and menu items that enable developers to apply multiple style changes to selected text in one step. Bundling and repeating frequently used editing tasks such as this saves time and promotes consistency.
+In this tutorial, you will add functions and menu items that enable developers to apply multiple style changes to selected text in one step. Bundling and repeating frequently used editing tasks such as these saves time and promotes consistency.
 
 This guide assumes only basic familiarity with Google Slides (similar to Microsoft PowerPoint) and an object-oriented programming language such as Javascript. 
 
-To complete this lesson, all you need is a Gmail account.
+To complete this lesson, all you need is a temporary Gmail account.
 
 
 ## Getting Started
 
 Below is an Apps Script function that applies mutliple style changes to selected text. Lines 5 and 6 fetch selected text. Lines 10 to 13 apply style changes. 
 
-In this exercise, you add this function to a presentation.
-
 ![sample code](./images/01-sample-code.png)
 
-Then you will add two wrapper functions that call this function with pretedetermined style changes, and add two menu items that users can select to run these functions. 
+In this exercise, you add this function to a presentation. Then you will add two wrapper functions that call this function with pretedetermined style changes, and add two menu items that users can select to run these functions (as shown below.)
 
 ![slides menu](./images/02-slides-menu-small.png)
 
 
 ## Create a Gmail account
 
-Google Slides comes with Gmail for free.  
-
-However, running scripts requires two-factor authentication disabled and access to personal data; it is safer and faster to run these exercises from a temporary Gmail account.
+Google Slides comes with Gmail.  However, running scripts requires two-factor authentication disabled and access to personal data, so it is safer and faster to run these exercises from a temporary Gmail account.
 
 Open a web browser.
 
 Go to [gmail.com](https://gmail.google.com/) and create a Gmail account; it only takes about 60 seconds.
 
-When you finish creating the account, Gmail opens and gives you access to other Google Workspace applications.
+When you finish creating the account, Gmail opens.
 
 ## Create a new presentation in Google Slides
 
-In the main Gmail page, click the **Google apps** icon (top-right) where you can . This opens Google Workspace where you can create a new presentation.
+In the main Gmail page, click the **Google apps** icon (top-right) where you can open other Google Workspace applications. This opens Google Workspace where you can create a new presentation.
 
 ![Google apps](./images/02-gapps-selector.png)
 
