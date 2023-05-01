@@ -3,11 +3,17 @@
 
 ## Overview
 
+Google Apps Script is a rapid development platform for extending functionality in Google Workspace applications such as Google Slides and Google Docs. If you are unfamiliar with Google Slides and Docs, they are similar in functionality to Microsoft PowerPoint and Word.
+
+With Apps Script, you can write custom functions that automate frequently used tasks by end users. And you can add custom menu items to Google Slides and Docs, so end users can run these functions from drop-down menu items. Automating frequently used tasks by content developers saves time and promotes consistency.
+
+
+by content developers. If you are familiar with Microsoft PowerPoint and Word, you can create similar automation using Visual Basic for Applications.
+
+ou can also add menu items to Google Slides and Docs so users can run these functions from the main menu.
+
 This tutorial introduces you to automating content development using Google Apps Script.
 
-Google Apps Script is a rapid development platform for extending functionality in Google Workspace applications such as Google Slides and Google Docs.
-
-In this tutorial, you will automate tasks repeatedly used by content developers to save time and promote consistency when building slides.
 
 To do this, you will add functions and menu items to Google Slides that enable content developers to apply multiple, predetermined style changes to selected text in one step. 
 
