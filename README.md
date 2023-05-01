@@ -3,16 +3,18 @@
 
 ## Overview
 
-Google Apps Script is a rapid development platform for extending functionality in Google Workspace applications such as Google Slides and Google Docs. If you are unfamiliar with Google Slides and Docs, they are similar in functionality to Microsoft PowerPoint and Word.
+Content developers can use a web-based application called Google Slides to create presentations. If you are unfamiliar with Google Slides, it is similar in functionality to Microsoft PowerPoint.
 
-With Apps Script, you can write custom functions that automate frequently used tasks by end users. And you can add custom menu items to Google Slides and Docs, so end users can run these functions from drop-down menu items. Automating frequently used tasks by content developers saves time and promotes consistency.
+Within Google Slides, you can automate a frequently repeated sequence of manual tasks for end users into a custom function that they run from the main menu.  Enabling content developers to run a custom function that automates a sequence of repetitive manual saves time and promotes content consistency.
+
+frequently used, repetitive tasks.
+
+by end users, and let the users run these functions 
+Google Apps Script is a rapid development platform for extending functionality in Google Workspace applications such as Google Slides and Google Docs. If you are unfamiliar with Google Slides and Docs, they are similar in fuIctionality to Microsoft PowerPoint and Word.
 
 
-by content developers. If you are familiar with Microsoft PowerPoint and Word, you can create similar automation using Visual Basic for Applications.
 
-ou can also add menu items to Google Slides and Docs so users can run these functions from the main menu.
-
-This tutorial introduces you to automating content development using Google Apps Script.
+With Apps Script, you can write custom functions that automate frequently used tasks by end users. And you can add custom menu items to Google Slides and Docs, so end users can run these functions from the main menu. Automating tasks, frequently used  by content developers, 
 
 
 To do this, you will add functions and menu items to Google Slides that enable content developers to apply multiple, predetermined style changes to selected text in one step. 
