@@ -15,12 +15,13 @@ This guide assumes only basic familiarity with Google Slides and an object-orien
 
 ## Getting Started
 
-
-Below is an Apps Script function that applies mutliple style changes to selected text. Lines 5 and 6 fetch selected text. Lines 10 to 13 apply style changes. 
+In this tutorial, you will add the following function that applies multiple style changes to selected text in a presentation.
 
 ![sample code](./images/01-sample-code.png)
 
-In this exercise, you add this function to a presentation. Then you will add two wrapper functions that call this function with pretedetermined style changes, and add two menu items that users can select to run these functions (as shown below.)
+Lines 5 and 6 get the selected text; lines 10 to 13 apply style changes. 
+
+Then you will add two wrapper functions that call this function with predetermined style changes, and add two menu items that users can select to run these functions as shown below.
 
 ![slides menu](./images/28-slides-menu.png)
 
@@ -29,7 +30,7 @@ In this exercise, you add this function to a presentation. Then you will add two
 
 To complete this lesson, you need a temporary Gmail account. 
 
-Google Slides comes with Gmail.  However, running scripts requires two-factor authentication disabled and access to personal data; it is safer and faster to run these exercises from a temporary Gmail account.
+Google Slides comes with Gmail.  However, running scripts requires two-factor authentication disabled and access to personal data, so it is safer and faster to run these steps from a temporary account.
 
 Open a web browser.
 
