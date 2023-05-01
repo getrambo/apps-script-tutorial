@@ -5,17 +5,9 @@
 
 Content developers use applications such as Google Slides and Microsoft Powerpoint to create presentations. 
 
-Within Google Slides, there is a powerful feature called Google Apps Script which allows you to write custom functions that perform manual editing tasks in code. Almost any manual action that you can perform in Google Slides can be automated. For example, you can reformat selected text, insert preformatted code blocks or quoted text boxes, or export slides to PDF. Bundling and repeating frequently used editing tasks saves time and promotes content consistency.
+Within Google Slides, there is a powerful feature called Google Apps Script which allows you to write custom functions that perform manual editing tasks in code. Almost any manual action that you can perform in Google Slides can be automated. For example, you can reformat selected text, insert preformatted code blocks or quoted text boxes, or export slides to PDF. You can also add custom menu items that allow users to run these functions from the main menu. 
 
-
-When creating content, developers often find themselves repeating the same sequence of steps many times. For example, when formatting text or inserting code blocks.
-
-
-With Apps Script, you can write custom functions that automate frequently used tasks by end users of Google Slides. And you can add custom menu items to Google Slides and Docs, so end users can run these functions from the main menu. Automating tasks, frequently used  by content developers, 
-
-into a custom function that they run from the main menu.  .
-
-To do this, you will add functions and menu items to Google Slides that enable content developers to apply multiple, predetermined style changes to selected text in one step. 
+In this tutorial, you will add functions and menu items to Google Slides that enable content developers to apply multiple, predetermined style changes to selected text in one step. Bundling and repeating frequently used editing tasks such as these saves time and promotes content consistency.
 
 This guide assumes only basic familiarity with Google Slides (similar to Microsoft PowerPoint) and an object-oriented programming language such as Javascript. 
 
