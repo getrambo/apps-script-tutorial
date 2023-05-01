@@ -106,7 +106,7 @@ Click the **Save Project** icon to save your functions before running and testin
 ![save icon](./images/08-save-icon.png)
 
 
-## Authorize functions to act on data
+## Run and test functions
 
 Before functions can apply style changes, you must authorize them to act on data.
 
@@ -116,7 +116,7 @@ Return to slides and select some text on which to apply style changes.
 
 ![select text](./images/09-select-text.png)
 
-Leave text selected and return to script editor.
+Leave text selected and return to the script editor.
 
 Select **setRedConsolas** from the function drop-down selector (if not selected.)
 
@@ -192,9 +192,9 @@ Congratulations! You are now using custom functions to save time and promote con
 
 If there was more time, you could learn how to customize Google Docs (similar to Microsoft Word) with Google Apps Script.
 
-Below is an example of two functions added to the main menu that enable users to insert quoted text boxes (green) and code blocks (gray) similar to those found in Markdown.
+Below is an example of two functions added to the main menu that enable users to insert code blocks (grey) and quoted text boxes (green) similar to those found in Markdown.
 
-> Menu items insert preformatted empty boxes; users add text.
+> Menu items insert preformatted empty boxes at the cursor position; users add text.
 
 ![text boxes](./images/30-docs-menu.png)
 
