@@ -16,24 +16,26 @@ To complete this lesson, all you need is a Gmail account.
 
 ## Getting Started
 
-In Apps Script, you write scripts with access to built-in libraries and data objects comprising the structure and content of presentations and documents.
- 
-Below is an Apps Script function. Apps Scripts can be bound to a specific application. This function applies mutliple style changes to selected text in its bound presentation. Lines 5 and 6 get selected text. Lines 10 to 13 apply predetermined style changes. 
+Below is an Apps Script function that applies mutliple style changes to selected text. Lines 5 and 6 fetch selected text. Lines 10 to 13 apply style changes. 
+
+In this exercise, you add this function to a presentation.
 
 ![sample code](./images/01-sample-code.png)
 
-In this exercise, you will add functions bound to a Google Slides presentation and add custom menu items that trigger two predetermined style changes as[ shown below.
+Then you will add two wrapper functions that call this function with pretedetermined style changes, and add two menu items that users can select to run these functions. 
 
 ![slides menu](./images/02-slides-menu-small.png)
-
-For more details, refer to Google Apps Script [documentation](https://developers.google.com/apps-script/overview).
 
 
 ## Create a Gmail account
 
-Running scripts requires two-factor authentication disabled and access to personal data, so it will be safer and quicker to run these exercises from a temporary Gmail account.
+Google Slides comes with Gmail for free.  
 
-Open a web browser and go to [gmail.com](https://gmail.google.com/) and create a Gmail account; it only takes about 60 seconds.
+However, running scripts requires two-factor authentication disabled and access to personal data; it is safer and faster to run these exercises from a temporary Gmail account.
+
+Open a web browser.
+
+Go to [gmail.com](https://gmail.google.com/) and create a Gmail account; it only takes about 60 seconds.
 
 When you finish creating the account, Gmail opens and gives you access to other Google Workspace applications.
 
