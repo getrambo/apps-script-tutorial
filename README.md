@@ -17,7 +17,7 @@ This guide assumes only basic familiarity with Google Slides and an object-orien
 
 In this tutorial, you will add the following function that applies multiple style changes to selected text in a presentation.
 
-> Lines 5 and 6 get the selected text; lines 10 to 13 apply style changes. 
+> Lines 5 and 6 get the selected text; lines 9 to 14 verify text was selected and apply style changes. 
 
 ![sample code](./images/01-sample-code.png)
 
