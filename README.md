@@ -121,9 +121,9 @@ Select **setRedConsolas** from the function drop-down selector (if not selected.
 
 Click **Run** to call **setRedConsolas**. 
 
-> This tests the function and requests privileges to modify text.
-
 ![click run](./images/11-click-run.png)
+
+> This requests privileges to modify text.
 
 Navigate through the dialog:
 - Click **Review permissions**
@@ -136,10 +136,10 @@ You should see two messages without errors in the **Execution log**.
 
 > You may need to run the script a second time after authorizing it.
 
-If you get an error like the one below, no text was selected. Reselect some text in slides and rerun the function.
+If you get the following error, no text was selected. Reselect some text in slides and rerun the function.
 
 ```
-Error len(0)
+TypeError: Cannot read properties of null (reading 'getLength')
 ```
 
 Return to slides and observe the new style.
