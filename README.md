@@ -5,16 +5,16 @@
 
 Content developers use applications such as Google Slides and Microsoft Powerpoint to create presentations. 
 
-In Google Slides, there is a feature called Google Apps Script which enables you to write custom functions that perform manual editing tasks in code. Almost any manual action that you can perform in Google Slides can be automated. You can also add custom menu items that allow users to run these functions from the main menu. 
+In Google Slides, there is a feature called Google Apps Script which enables you to write custom functions that perform manual editing tasks in code. Almost any manual action that you can perform in Google Slides can be automated.
 
-In this tutorial, you will add functions and menu items that enable developers to apply multiple style changes to selected text in one step. Bundling and repeating frequently used editing tasks such as these saves time and promotes consistency.
+In this tutorial, you will add functions and menu items that enable developers to apply multiple style changes to selected text in one step. Automating frequently used tasks such as these saves time and promotes consistency.
 
-This guide assumes only basic familiarity with Google Slides (or Microsoft PowerPoint) and an object-oriented programming language such as Javascript. 
+This guide assumes only basic familiarity with Google Slides and an object-oriented programming language such as Javascript. 
 
-To complete this lesson, all you need is a temporary Gmail account.
 
 
 ## Getting Started
+
 
 Below is an Apps Script function that applies mutliple style changes to selected text. Lines 5 and 6 fetch selected text. Lines 10 to 13 apply style changes. 
 
@@ -27,9 +27,9 @@ In this exercise, you add this function to a presentation. Then you will add two
 
 ## Create a Gmail account
 
-Google Slides comes with Gmail.  
+To complete this lesson, you need a temporary Gmail account. 
 
-However, running scripts requires two-factor authentication disabled and access to personal data, so it is safer and faster to run these exercises from a temporary Gmail account.
+Google Slides comes with Gmail.  However, running scripts requires two-factor authentication disabled and access to personal data; it is safer and faster to run these exercises from a temporary Gmail account.
 
 Open a web browser.
 
@@ -39,13 +39,15 @@ When you finish creating the account, Gmail opens.
 
 ## Create a new presentation in Google Slides
 
-In the main Gmail page, click the **Google apps** icon (top-right) where you can open other Google Workspace applications. This opens Google Workspace where you can create a new presentation.
+In the main Gmail page, click the **Google apps** icon (top-right.)
 
 ![Google apps](./images/02-gapps-selector.png)
 
-In the dialog popup, select **Drive**.  Google Drive is where you can create Google Slides and Docs.
+In the popup dialog, select **Drive**.  
 
-Click the **+ New** button (top-left) and select **Google Slides** to create a new presentation in Google Slides.
+> Google Drive is where you can create Google Slides.
+
+Click the **+ New** button (top-left) and select **Google Slides** to create a new presentation.
 
 ## Add some text to format
 
