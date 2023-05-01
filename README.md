@@ -5,15 +5,7 @@
 
 Content developers use applications such as Google Slides and Microsoft Powerpoint to create presentations. 
 
-Within Google Slides, there is a powerful feature called Google Apps Script. Apps Script allows you to write custom functions that can automate and bundle almost any sequence of manual content editing tasks. You can format selected text, insert preformatted code blocks or quoted text boxes, or save files to PDF. Almost any action you can perform in Google Slides can be automated. 
-
-With it, you can bundle several text formatting steps in a single action.
-
-perform actions on content 
-steps
-to perform content development tasks using custom functions.write custom functions that programmatically perform editing tasks
-
-extend functionality in Google Slides. With Apps Script, you can write custom functions that bundle and repeat frequently used editing tasks which saves time and promotes consistency.
+Within Google Slides, there is a powerful feature called Google Apps Script which allows you to write custom functions that perform manual editing tasks in code. Almost any manual action that you can perform in Google Slides can be automated. For example, you can reformat selected text, insert preformatted code blocks or quoted text boxes, or export slides to PDF. Bundling and repeating frequently used editing tasks saves time and promotes content consistency.
 
 
 When creating content, developers often find themselves repeating the same sequence of steps many times. For example, when formatting text or inserting code blocks.
