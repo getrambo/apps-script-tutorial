@@ -149,7 +149,7 @@ Return to slides and observe the new style.
 
 Select some other text and test **setGreenConsolasItalic**.
 
-Congratulations! Your functions are working.
+> **Congratulations!** Your functions are working.
 
 
 ## Add functions to the main menu
