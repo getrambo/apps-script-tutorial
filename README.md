@@ -38,6 +38,7 @@ Go to [gmail.com](https://gmail.google.com/) and create a Gmail account; it only
 
 > When you finish creating the account, Gmail opens.
 
+
 ## Open a new presentation
 
 In the main Gmail page, click the **Google apps** icon (top-right) to view other applications.
@@ -52,6 +53,7 @@ Click the **+ New** button (top-left.)
 
 Select **Google Slides** to open a new presentation.
 
+
 ## Add some text
 
 You need some text in slides to select.
@@ -60,7 +62,8 @@ In the slide editor (center of page,) click the title and subtitle boxes and ent
 
 ![enter text](./images/04-enter-text.png)
 
-## Add functions
+
+## Add functions that apply style changes
 
 Next, you define functions that users run to apply style changes to selected text.
 
@@ -103,11 +106,11 @@ Click the **Save Project** icon to save your functions before running and testin
 ![save icon](./images/08-save-icon.png)
 
 
-## Test functions
+## Authorize functions to act on data
 
-This step requires you to run and authorize functions to act on data.
+Before functions can apply style changes, you must authorize them to act on data.
 
-Return to slides and select some text to highlight.
+Return to slides and select some text on which to apply style changes.
 
 > A word or two is all you need.
 
@@ -149,7 +152,7 @@ Select some other text and test **setGreenConsolasItalic**.
 Congratulations! Your functions are working.
 
 
-## Expose functions
+## Add functions to the main menu
 
 Now it's time to expose these functions to end users.
 
@@ -184,11 +187,14 @@ Select some text in the slide edit window and select one of the drop-down menu i
 
 Congratulations! You are now using custom functions to save time and promote consistency in your content.
 
+
 ## Doing more with Google Docs
 
-If there was more time, you could learn how to customize Google Docs with Google Apps Script. Google Docs is an application similar to Microsoft Word.
+If there was more time, you could learn how to customize Google Docs (similar to Microsoft Word) with Google Apps Script.
 
 Below is an example of two functions added to the main menu that enable users to insert quoted text boxes (green) and code blocks (gray) similar to those found in Markdown.
+
+> Menu items insert preformatted empty boxes; users add text.
 
 ![text boxes](./images/30-docs-menu.png)
 
