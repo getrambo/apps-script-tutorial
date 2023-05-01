@@ -3,7 +3,7 @@
 
 ## Overview
 
-Content developers use applications such as Microsoft PowerPoint and Google Slides to create presentations.
+Content developers use applications such as Google Slides to create presentations. Google Slides is similar in functionaltiy to Microsoft Powerpoint.
 
 Within Google Slides, you can automate content development tasks using Google Apps Script.
 
